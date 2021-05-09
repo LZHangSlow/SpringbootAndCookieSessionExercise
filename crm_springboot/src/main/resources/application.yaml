@@ -1,0 +1,29 @@
+person: 
+  userName: sannian
+  boos: true
+  birth: 1998/08/06
+  age: 23
+  interests: 
+    - computergame
+    - read
+    - run
+  animal: [tiger,lion]
+  score: {english: 120,math: 130}
+  salarys: 
+    - 9999
+    - 1111
+  pet: 
+    name: black
+    weight: 33.5
+  allPets: 
+    sick: 
+      - {name: jim,weight: 22.5}
+      - {name: jack,weight: 34.5}
+      - {name: tom,weight: 15.5}
+    health: 
+      - name: pack
+        weigth: 39.1
+      - name: mac
+        weigth: 11.23
+      - name: dabao
+        weigth: 25.3
