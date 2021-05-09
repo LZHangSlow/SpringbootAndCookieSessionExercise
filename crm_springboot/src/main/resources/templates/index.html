@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>SpringBoot quick start</h1>
+	<h2>First index page</h2>
+	<a href="hello">This link is to hello controller</a>	<br>
+	<a href="a">error404</a>	<br>
+	<a href="person">person information</a>
+	<hr>
+	测试基本注解
+	<ul>
+		<a href="/car/1/owner/louzhihang?age=33&inters=sex,run,piano">/car/{id}/owner/{username}</a>
+		<li>@PathVariable(路径变量)</li>
+		<li>@RequestHeader(获取请求头)</li>
+		<li>@RequestParam(获取请求参数)</li>
+		<li>@CookieValue(获取cookie值)</li>
+		<li>@RequestAttribute(获取request域属性)</li>
+		<li>@RequestBody(获取请求体)</li>
+		<li>@MatrixVariable(矩阵变量)</li>
+	</ul>
+	<br>
+	<form action="/save" method="post">
+	测试@RequestBody获取数据<br>
+	用户名：<input name="userName"/><br>
+	邮箱：<input name="email"/>
+	<input type="submit" value="提交"/>
+	</form>
+	<hr>
+	<a href="goto">goto</a>
+	<hr>
+	Cookie的测试
+	<ul>
+		<a href="setCookies">setCookies</a>
+		<a href="getCookies">getCookies</a>
+	</ul>
+	<hr>
+	<form action="/success" method="post">
+	<input type="submit" value="跳转到成功页">
+	<a href="login">登录页</a>
+	</form>
+	<hr>
+	<a href="/sessionPage">Session的测试</a>
+	<hr>
+	<a href="/toJson">Json的测试</a>
+</body>
+</html>
